@@ -1,0 +1,74 @@
+[
+  {"original": "Creme fraiche", "category": "produit laitier", "substitutes": [
+    {"ingredient": "Yaourt grec", "ratio": "1:1", "notes": "Moins gras, legere acidite. Ne pas faire bouillir.", "context": "sauce froide, marinade, garniture", "dietary": ["allegee"]},
+    {"ingredient": "Lait de coco", "ratio": "1:0.75", "notes": "Pour preparations asiatiques ou exotiques. Ajouter en fin de cuisson.", "context": "curry, soupe, dessert", "dietary": ["vegan", "sans lactose"]},
+    {"ingredient": "Ricotta", "ratio": "1:1", "notes": "Texture plus granuleuse, bien mixer. Ideal pour gratins.", "context": "gratin, farce, sauce", "dietary": ["allegee"]},
+    {"ingredient": "Fromage blanc 0%", "ratio": "1:1", "notes": "Plus liquide, ajouter 1 cc maizena pour epaissir si necessaire.", "context": "sauce, quiche", "dietary": ["allegee"]}
+  ]},
+  {"original": "Beurre", "category": "matiere grasse", "substitutes": [
+    {"ingredient": "Huile d'olive", "ratio": "100g:80ml", "notes": "Goût different, ideal pour cuisson et patisseries mediterraneennes.", "context": "cuisson, gateau, cake", "dietary": ["sans lactose"]},
+    {"ingredient": "Puree d'amande", "ratio": "1:1", "notes": "Richesse similaire, goût noisette. Parfait en patisserie.", "context": "patisserie, sauce", "dietary": ["vegan", "sans lactose"]},
+    {"ingredient": "Huile de coco", "ratio": "1:0.85", "notes": "Se solidifie au froid comme le beurre. Legere saveur coco.", "context": "patisserie, cuisson", "dietary": ["vegan", "sans lactose"]},
+    {"ingredient": "Margarine vegetale", "ratio": "1:1", "notes": "Choisir sans huile de palme. Resultat tres proche.", "context": "patisserie, tartine", "dietary": ["vegan", "sans lactose"]}
+  ]},
+  {"original": "Oeuf", "category": "liant", "substitutes": [
+    {"ingredient": "Compote de pomme", "ratio": "1 oeuf:60g", "notes": "En patisserie uniquement. Apporte humidite et liaison.", "context": "gateau, muffin, pancake", "dietary": ["vegan"]},
+    {"ingredient": "Banane ecrasee", "ratio": "1 oeuf:1/2 banane", "notes": "Apporte du sucre naturel. Goût banane perceptible.", "context": "gateau, pancake, cookie", "dietary": ["vegan"]},
+    {"ingredient": "Graines de lin moulues", "ratio": "1 oeuf:1 cs + 3 cs eau", "notes": "Laisser gonfler 10 min. Bon liant, texture legerement granuleuse.", "context": "pain, gateau, biscuit", "dietary": ["vegan"]},
+    {"ingredient": "Aquafaba", "ratio": "1 blanc:30ml", "notes": "Eau de cuisson des pois chiches. Se monte en neige comme un blanc.", "context": "mousse, meringue, macaron", "dietary": ["vegan"]}
+  ]},
+  {"original": "Farine de ble", "category": "feculent", "substitutes": [
+    {"ingredient": "Farine de riz", "ratio": "1:1", "notes": "Texture plus granuleuse, melanger avec fecule pour lisser.", "context": "patisserie, panure, sauce", "dietary": ["sans gluten"]},
+    {"ingredient": "Farine de sarrasin", "ratio": "1:0.75", "notes": "Goût prononce de noisette. Associer avec farine de riz.", "context": "galette, crepe, gateau", "dietary": ["sans gluten"]},
+    {"ingredient": "Fecule de mais", "ratio": "1:0.5", "notes": "Pouvoir epaississant double. Pour sauces et cremes.", "context": "sauce, creme, liaison", "dietary": ["sans gluten"]},
+    {"ingredient": "Farine d'amande", "ratio": "1:1", "notes": "Pas de gluten, ne leve pas. Pour fondants, financiers.", "context": "patisserie fondante, macaron", "dietary": ["sans gluten"]}
+  ]},
+  {"original": "Lait", "category": "produit laitier", "substitutes": [
+    {"ingredient": "Lait d'avoine", "ratio": "1:1", "notes": "Le plus neutre en goût, bonne tenue en cuisson.", "context": "bechamel, creme, patisserie", "dietary": ["vegan", "sans lactose"]},
+    {"ingredient": "Lait de soja", "ratio": "1:1", "notes": "Riche en proteines, coagule avec acide (attention vinaigre/citron).", "context": "creme, sauce, patisserie", "dietary": ["vegan", "sans lactose"]},
+    {"ingredient": "Lait de coco", "ratio": "1:1", "notes": "Saveur marquee coco. Ideal pour desserts et preparations exotiques.", "context": "dessert, curry, riz au lait", "dietary": ["vegan", "sans lactose"]}
+  ]},
+  {"original": "Sucre blanc", "category": "sucrant", "substitutes": [
+    {"ingredient": "Miel", "ratio": "100g:75g", "notes": "Pouvoir sucrant superieur. Reduire le liquide de la recette de 20%.", "context": "patisserie, sauce, marinade", "dietary": []},
+    {"ingredient": "Sirop d'erable", "ratio": "100g:75ml", "notes": "Goût boise caracteristique. Reduire le liquide de la recette.", "context": "patisserie, pancake, glacage", "dietary": ["vegan"]},
+    {"ingredient": "Sucre de coco", "ratio": "1:1", "notes": "Index glycemique plus bas. Saveur caramel legere.", "context": "patisserie, boisson", "dietary": []},
+    {"ingredient": "Compote de dattes", "ratio": "100g:120g", "notes": "Mixer dattes + eau. Riche en fibres, goût caramel.", "context": "gateau, energy balls, smoothie", "dietary": ["vegan"]}
+  ]},
+  {"original": "Fond de veau", "category": "liquide", "substitutes": [
+    {"ingredient": "Fond de volaille", "ratio": "1:1", "notes": "Plus leger, convient pour la plupart des sauces.", "context": "sauce, braise, risotto", "dietary": []},
+    {"ingredient": "Bouillon de legumes", "ratio": "1:1", "notes": "Ajouter de la sauce soja (1 cs/L) pour compenser l'umami.", "context": "sauce, soupe, risotto", "dietary": ["vegan"]},
+    {"ingredient": "Jus de champignon seche", "ratio": "1:1", "notes": "Faire tremper 30g cepes seches dans 500ml eau chaude. Riche en umami.", "context": "sauce, braise, risotto", "dietary": ["vegan"]}
+  ]},
+  {"original": "Vin rouge (cuisson)", "category": "liquide", "substitutes": [
+    {"ingredient": "Jus de raisin rouge + vinaigre balsamique", "ratio": "250ml:200ml jus + 2cs vinaigre", "notes": "Acidite et tanins simulés. Bon compromis.", "context": "braise, sauce, marinade", "dietary": ["sans alcool"]},
+    {"ingredient": "Bouillon de boeuf concentre", "ratio": "250ml:250ml", "notes": "Pas d'acidite mais bonne profondeur. Ajouter 1 cs vinaigre rouge.", "context": "braise, sauce", "dietary": ["sans alcool"]}
+  ]},
+  {"original": "Vin blanc (cuisson)", "category": "liquide", "substitutes": [
+    {"ingredient": "Jus de pomme sec + vinaigre cidre", "ratio": "250ml:200ml jus + 2cs vinaigre", "notes": "Bonne acidite, legere douceur fruitee.", "context": "sauce, poisson, risotto", "dietary": ["sans alcool"]},
+    {"ingredient": "Bouillon de legumes + jus de citron", "ratio": "250ml:250ml bouillon + 1cs citron", "notes": "Acidite fraiche. Parfait pour poisson et volaille.", "context": "sauce, poisson, moules", "dietary": ["sans alcool"]}
+  ]},
+  {"original": "Gelatine", "category": "liant", "substitutes": [
+    {"ingredient": "Agar-agar", "ratio": "1 feuille:0.5g poudre", "notes": "Plus ferme que la gelatine. Doit bouillir 2 min pour activer.", "context": "panna cotta, bavarois, gelee", "dietary": ["vegan"]},
+    {"ingredient": "Pectine", "ratio": "variable", "notes": "Necessite sucre et acide pour geler. Ideal pour confitures.", "context": "confiture, pate de fruit", "dietary": ["vegan"]}
+  ]},
+  {"original": "Fromage rape (gratin)", "category": "produit laitier", "substitutes": [
+    {"ingredient": "Levure maltee", "ratio": "100g:30g", "notes": "Goût fromagé vegetal. Melanger avec chapelure pour gratiner.", "context": "gratin, pates, salade", "dietary": ["vegan"]},
+    {"ingredient": "Chapelure + huile d'olive", "ratio": "100g:60g chapelure + 2cs huile", "notes": "Croustillant dore sans fromage. Ajouter herbes.", "context": "gratin", "dietary": ["vegan", "sans lactose"]}
+  ]},
+  {"original": "Anchois", "category": "proteine", "substitutes": [
+    {"ingredient": "Câpres + olives noires", "ratio": "1 filet:1cc câpres + 2 olives", "notes": "Combine salinite et umami. Hacher finement.", "context": "sauce, pizza, salade", "dietary": ["vegetarien"]},
+    {"ingredient": "Algue nori emietee", "ratio": "1 filet:1/4 feuille", "notes": "Apporte l'iode et l'umami marin.", "context": "sauce, assaisonnement", "dietary": ["vegan"]}
+  ]},
+  {"original": "Lardons", "category": "proteine", "substitutes": [
+    {"ingredient": "Tofu fume en des", "ratio": "1:1", "notes": "Faire rissoler a sec pour croustillant. Goût fume proche.", "context": "quiche, salade, carbonara", "dietary": ["vegetarien", "vegan"]},
+    {"ingredient": "Champignons shiitake", "ratio": "150g:200g", "notes": "Emincer et faire sauter avec sauce soja. Umami intense.", "context": "risotto, quiche, poêlee", "dietary": ["vegan"]}
+  ]},
+  {"original": "Parmesan", "category": "produit laitier", "substitutes": [
+    {"ingredient": "Levure maltee + noix de cajou", "ratio": "50g:30g levure + 30g cajou", "notes": "Mixer ensemble. Texture et goût umami similaires.", "context": "pates, risotto, pesto", "dietary": ["vegan"]},
+    {"ingredient": "Pecorino", "ratio": "1:1", "notes": "Brebis, goût plus prononce. Pas vegan mais sans presure animale possible.", "context": "pates, risotto", "dietary": []}
+  ]},
+  {"original": "Moutarde de Dijon", "category": "condiment", "substitutes": [
+    {"ingredient": "Wasabi", "ratio": "1cs:0.5cc", "notes": "Piquant different mais emulsionne aussi bien. Doser avec parcimonie.", "context": "vinaigrette, sauce, marinade", "dietary": ["vegan"]},
+    {"ingredient": "Raifort rape", "ratio": "1:0.5", "notes": "Piquant nasal similaire. Traditionnel en Alsace.", "context": "sauce, viande, poisson fume", "dietary": ["vegan"]}
+  ]}
+]
