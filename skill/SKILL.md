@@ -35,6 +35,35 @@ classiques de la cuisine francaise. L'assistant doit :
 
 Toutes les reponses en **francais**. Les termes techniques culinaires en francais.
 
+## Regle critique : proportions selon le diametre du moule
+
+Quand l'utilisatrice specifie un diametre de moule (cercle, moule rond),
+TOUJOURS adapter les quantites en utilisant le ratio des surfaces :
+
+| Diametre | Surface (cm2) | Ratio vs 22cm |
+|----------|--------------|---------------|
+| 14 cm    | 154          | 0.40          |
+| 16 cm    | 201          | 0.53          |
+| 18 cm    | 254          | 0.67          |
+| 20 cm    | 314          | 0.83          |
+| 22 cm    | 380          | 1.00 (ref)    |
+| 24 cm    | 452          | 1.19          |
+| 26 cm    | 531          | 1.40          |
+| 28 cm    | 616          | 1.62          |
+
+**Methode** : les recettes "standard" sont generalement pour 22-24 cm.
+- Si moule 18 cm demande : multiplier toutes les quantites par 0.67
+- Si moule 20 cm : multiplier par 0.83
+- Arrondir intelligemment (3.3 oeufs = 3 oeufs, ajuster le liquide en consequence)
+
+**Exemple fraisier 18cm vs 22cm** :
+- Lait creme patissiere : 300ml (pas 500ml)
+- Creme fouettee : 200ml (pas 300ml)
+- Jaunes : 3 (pas 4)
+- Gelatine : 2 feuilles (pas 3)
+
+**JAMAIS donner des quantites "standard" sans les adapter au moule demande.**
+
 ## Outils MCP disponibles
 
 Tous ces outils sont accessibles via le MCP server `mealie` :
@@ -72,6 +101,8 @@ Collections disponibles :
 Generer une recette complete a partir d'une description libre.
 
 **Processus :**
+0. Si un diametre de moule est specifie, calculer le ratio de proportionnalite
+   AVANT de composer la recette (voir table des ratios ci-dessus)
 1. Interroger `seasonal_ingredients` pour le mois en cours
 2. Chercher des `flavor_pairings` pertinents
 3. Verifier les recettes existantes dans Mealie via `search_recipes`
