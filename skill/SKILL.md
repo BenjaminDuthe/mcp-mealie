@@ -233,5 +233,20 @@ Obtenir les details d'une technique culinaire.
 Quand l'utilisatrice parle de cuisine sans utiliser de commande slash,
 l'agent doit :
 - Repondre en mode conversationnel expert
-- Consulter la base de connaissances si pertinent
 - Proposer les commandes slash pertinentes quand c'est utile
+
+## REGLE OBLIGATOIRE : toujours consulter la base de connaissances
+
+AVANT de generer ou proposer une recette (que ce soit via /recipe ou en chat libre),
+l'agent DOIT OBLIGATOIREMENT appeler au minimum :
+
+1. `query_knowledge_base(collection="seasonal_ingredients", month=<mois_actuel>)`
+   pour verifier les ingredients de saison
+2. `query_knowledge_base(collection="flavor_pairings", query="<ingredient_principal>")`
+   pour enrichir avec des accords de saveurs
+3. `search_recipes(query="<mot_cle>")` pour verifier si une recette similaire
+   existe deja dans Mealie
+
+Ne JAMAIS generer une recette uniquement depuis les connaissances generales
+sans avoir consulte la base de donnees. La base contient des donnees curees
+et validees par une professionnelle.
