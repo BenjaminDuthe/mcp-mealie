@@ -250,3 +250,13 @@ l'agent DOIT OBLIGATOIREMENT appeler au minimum :
 Ne JAMAIS generer une recette uniquement depuis les connaissances generales
 sans avoir consulte la base de donnees. La base contient des donnees curees
 et validees par une professionnelle.
+
+## REGLE OBLIGATOIRE : ne jamais sauvegarder sans validation explicite
+
+Ne JAMAIS appeler create_recipe, update_recipe ou import_recipe_from_url
+pour sauvegarder une recette dans Mealie SAUF si l'utilisatrice dit
+explicitement "ajoute a l'application", "sauvegarde", "enregistre" ou equivalent.
+
+L'utilisatrice peut vouloir modifier la recette plusieurs fois avant de
+la sauvegarder. Proposer la recette, attendre ses retours et modifications,
+et ne sauvegarder que quand elle le demande expressement.
